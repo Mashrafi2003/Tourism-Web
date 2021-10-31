@@ -10,7 +10,7 @@ const Book = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data)
-        fetch('http://localhost:5000/orders',{
+        fetch('https://dreadful-barrow-25745.herokuapp.com/orders',{
             method: 'POST',
             headers:{
                 'content-type': 'application/json'
@@ -30,7 +30,7 @@ const Book = () => {
     const [service , setService] = useState({})
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/destinations/${serviceId}`)
+        fetch(`https://dreadful-barrow-25745.herokuapp.com/destinations/${serviceId}`)
         .then(res=>res.json())
         .then(data => setService(data))
     },[])

@@ -6,7 +6,7 @@ const AddService = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data)
-        fetch('http://localhost:5000/destinations',{
+        fetch('https://dreadful-barrow-25745.herokuapp.com/destinations',{
             method: 'POST',
             headers:{
                 'content-type': 'application/json'

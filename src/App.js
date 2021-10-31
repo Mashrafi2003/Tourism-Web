@@ -48,9 +48,9 @@ function App() {
           <Route path='/contact'>
               <Contact></Contact>
           </Route>
-          <Route path='/myOrder'>
+          <PrivateRoute path='/myOrder'>
             <AllOrder></AllOrder>
-          </Route>
+          </PrivateRoute>
           <PrivateRoute path='/allOrder'>
             <MyOrders></MyOrders>
           </PrivateRoute>

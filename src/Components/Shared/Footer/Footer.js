@@ -10,7 +10,7 @@ const Footer = () => {
         <div class="left box">
           <h2>About us</h2>
           <div class="content">
-            <p>Health care (also health-care or healthcare) is the maintenance or improvement of health via the prevention, diagnosis, treatment, recovery, or cure of disease, illness, injury, and other physical and mental impairments in people</p>
+            <p>We ensure that all properties listed with us are verified thoroughly before taking live, so that you can revel in a good ambience.</p>
             <div class="social">
               <a href="https://facebook.com/coding.np"><span class="fab fa-facebook-f"></span></a>
               <a href="#"><span class="fab fa-twitter"></span></a>
@@ -57,7 +57,7 @@ const Footer = () => {
       </div>
       <div class="bottom">
         <center>
-          <span class="credit">Website By <a href="https://www.codingnepalweb.com">Vicodin Clinic</a> | </span>
+          <span class="credit">Website By <a href="https://www.codingnepalweb.com">Travel Guru</a> | </span>
           <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
         </center>
       </div>

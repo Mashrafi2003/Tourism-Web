@@ -4,7 +4,7 @@ import './About.css'
 const Aboutus = () => {
     return (
         <div className='about mt-5 text-warning mb-4'>
-            <h3>About Us</h3>
+            
             <section>
             <div class = "image">
                <img src="https://png.pngtree.com/png-clipart/20210725/original/pngtree-quote-journey-typography-for-t-shirt-design-png-image_6569454.jpg"/>
