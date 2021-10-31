@@ -1,0 +1,16 @@
+.service{
+    background-color: rgb(226, 241, 241);
+    border-radius:20px ;
+    margin: 30px;
+}
+.service img{
+    width: 300px;
+}
+.btn-service{
+    background-color: orange;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 250px;
+    margin-bottom: 10px;
+}

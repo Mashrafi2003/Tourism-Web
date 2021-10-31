@@ -1,0 +1,21 @@
+.book-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+.submit-service{
+    background-color:rgba(50, 229, 235, 0.637);
+}
+.form-service{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-service input{
+    padding: 5px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.book-container img{
+    width: 650px;
+}

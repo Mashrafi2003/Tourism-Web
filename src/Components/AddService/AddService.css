@@ -1,0 +1,10 @@
+.form-service{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-service input{
+    width: 500px;
+}

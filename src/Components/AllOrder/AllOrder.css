@@ -1,0 +1,21 @@
+.table{
+    text-align: center;
+    height: 80vh;
+    
+    display: flex;
+    flex-direction:column ;
+    /* justify-content: center; */
+    align-items: center;
+    }
+      
+     .table td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        width: 226px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      
