@@ -1,6 +1,7 @@
 
 import { BrowserRouter as Router , Switch, Route } from 'react-router-dom';
 import './App.css';
+import Notfound from './Components/404/Notfound';
 // import About from './Components/About/About';
 import AddService from './Components/AddService/AddService';
 import AllOrder from './Components/AllOrder/AllOrder';
@@ -59,6 +60,9 @@ function App() {
           >
             <AddService></AddService>
           </PrivateRoute>
+          <Route path='*'>
+            <Notfound></Notfound>
+          </Route>
         </Switch>
         <Footer></Footer>
       </Router>
